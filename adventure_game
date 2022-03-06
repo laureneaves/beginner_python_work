@@ -1,10 +1,10 @@
 name = input("Type your name: ")
 print("welcome", name, "to this adventure!")
 
-answer = input("You are on a dirt road, it has come to an end and you can go left or right. Which way would you like to go? ").lower()
+answer = input("You are on a dirt road, it has come to an end and you can go left or right. Which way would you like to go? Type left or right. ").lower()
 
 if answer == "left":
-    answer = input("You come to a river, you can walk around it or swim across? Type walk to walk around it or swim to swim across: ").lower()
+    answer = input("You come to a river, you can walk around it or swim across? Type walk or swim. ").lower()
 
     if answer == "swim":
         print("You swam across and were eaten by a crocodile.")
